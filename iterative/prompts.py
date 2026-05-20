@@ -1,3 +1,4 @@
+# Version 1 - Basic prompt
 def prompt_v1(fact_sheet: str) -> str:
     return f"""
 Your task is to help a marketing team create a 
@@ -11,7 +12,7 @@ triple backticks.
 Technical specifications: ```{fact_sheet}```
 """
 
-
+# Version 2 - Add word limit
 def prompt_v2(fact_sheet: str) -> str:
     return f"""
 Your task is to help a marketing team create a 
@@ -27,7 +28,7 @@ Use at most 50 words.
 Technical specifications: ```{fact_sheet}```
 """
 
-
+# Version 3 - Add audience and product IDs
 def prompt_v3(fact_sheet: str) -> str:
     return f"""
 Your task is to help a marketing team create a 
@@ -50,7 +51,7 @@ Use at most 50 words.
 Technical specifications: ```{fact_sheet}```
 """
 
-
+# Version 4 - Add HTML output and dimensions table
 def prompt_v4(fact_sheet: str) -> str:
     return f"""
 Your task is to help a marketing team create a 
