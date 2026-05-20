@@ -1,6 +1,6 @@
 # Iterative Prompt Development
 
-This module demonstrates **iterative prompt development**, one of the core techniques from the DeepLearning.AI course _ChatGPT Prompt Engineering for Developers_.
+This module demonstrates **iterative prompt development**, one of the core techniques I learned and implemented.
 
 The goal is to start with a simple prompt, evaluate the output, and gradually improve the prompt by adding clearer instructions, constraints, audience context, and output formatting requirements.
 
