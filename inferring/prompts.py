@@ -81,7 +81,7 @@ Format your response as a list of items separated by commas.
 Text sample: '''{story}'''
 """
 
-# Version 7 - Infer 5 topics
+# Version 7 - Make a news alert for certain topics
 def prompt_v7(story: str, topic_list: list) -> str:
     return f"""
 Determine whether each item in the following list of
