@@ -1,0 +1,15 @@
+DATA = { "resturant employees" :[
+    {"name":"Shyam", "email":"shyamjaiswal@gmail.com"},
+    {"name":"Bob", "email":"bob32@gmail.com"},
+    {"name":"Jai", "email":"jai87@gmail.com"}
+]}
+
+TEXT = """
+Got this for my daughter for her birthday cuz she keeps taking 
+mine from my room.  Yes, adults also like pandas too.  She takes 
+it everywhere with her, and it's super soft and cute.  One of the 
+ears is a bit lower than the other, and I don't think that was 
+designed to be asymmetrical. It's a bit small for what I paid for it 
+though. I think there might be other options that are bigger for 
+the same price.  It arrived a day earlier than expected, so I got 
+to play """
