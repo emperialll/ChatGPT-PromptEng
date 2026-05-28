@@ -6,7 +6,7 @@ load_dotenv(find_dotenv())
 
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
-DEFAULT_MODEL = os.getenv("OPENAI_MODEL", "gpt-5.5")
+DEFAULT_MODEL = os.getenv("OPENAI_MODEL", "gpt-4o-mini")
 
 def get_completion(prompt: str, model: str = DEFAULT_MODEL, temperature=0) -> str:
     messages = [{"role": "user", "content": prompt}]
