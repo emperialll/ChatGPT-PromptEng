@@ -1,4 +1,4 @@
-FACT_SHEER_CHAIR = """
+FACT_SHEET_CHAIR = """
 OVERVIEW
 - Part of a beautiful family of mid-century inspired office furniture, 
 including filing cabinets, desks, bookcases, meeting tables, and more.
