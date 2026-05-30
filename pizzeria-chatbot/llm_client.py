@@ -8,20 +8,19 @@ client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 DEFAULT_MODEL = os.getenv("OPENAI_MODEL", "gpt-4o-mini")
 
-def get_completion(prompt, model="gpt-3.5-turbo"):
+def get_completion(prompt, model=DEFAULT_MODEL):
     messages = [{"role": "user", "content": prompt}]
     response = client.chat.completions.create(
         model=model,
         messages=messages,
-        temperature=0, # this is the degree of randomness of the model's output
+        temperature=0,
     )
     return response.choices[0].message["content"]
 
-def get_completion_from_messages(messages, model="gpt-3.5-turbo", temperature=0):
+def get_completion_from_messages(messages, model=DEFAULT_MODEL, temperature=0):
     response = client.chat.completions.create(
         model=model,
         messages=messages,
-        temperature=temperature, # this is the degree of randomness of the model's output
+        temperature=temperature,
     )
-#     print(str(response.choices[0].message))
-    return response.choices[0].message["content"]
+    return response.choices[0].message.content

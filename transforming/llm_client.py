@@ -13,6 +13,6 @@ def get_completion(prompt: str, model: str = DEFAULT_MODEL, temperature=0) -> st
     response = client.chat.completions.create(
         model=model,
         messages=messages,
-        temperature=temperature, 
+        temperature=temperature
     )
     return response.choices[0].message.content
