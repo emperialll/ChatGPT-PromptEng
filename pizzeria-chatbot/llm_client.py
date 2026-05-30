@@ -23,5 +23,4 @@ def get_completion_from_messages(messages, model=DEFAULT_MODEL, temperature=0):
         messages=messages,
         temperature=temperature,
     )
-#     print(str(response.choices[0].message))
-    return response.choices[0].message["content"]
+    return response.choices[0].message.content
